@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>VXR | الموقع</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">VXR</div>
+    <button class="menu" onclick="toggleMenu()">☰</button>
+  </header>
+
+  <aside id="side">
+    <button class="close" onclick="toggleMenu()">×</button>
+    <a href="#home">الصفحة الرئيسية</a>
+    <a href="#ios">تطبيقات iOS</a>
+    <a href="#android">تطبيقات Android</a>
+    <a href="#pc">تطبيقات PC</a>
+    <a href="#games">الألعاب</a>
+  </aside>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-logo">VXR</div>
+      <div class="banner">VXR</div>
+      <h1>مرحباً بكم في <span>VXR</span></h1>
+      <p>موقع تحميل الألعاب والتطبيقات</p>
+    </section>
+
+    <section class="cards">
+      <article class="card" id="ios">
+        <div class="icon"></div>
+        <h2>تطبيقات iOS</h2>
+        <p>ألعاب وتطبيقات للآيفون والآيباد</p>
+        <a class="btn" href="#games">استعراض</a>
+      </article>
+
+      <article class="card" id="android">
+        <div class="icon">🤖</div>
+        <h2>تطبيقات Android</h2>
+        <p>ألعاب وتطبيقات للأندرويد</p>
+        <a class="btn" href="#games">استعراض</a>
+      </article>
+
+      <article class="card" id="pc">
+        <div class="icon">💻</div>
+        <h2>تطبيقات PC</h2>
+        <p>برامج وألعاب للكمبيوتر</p>
+        <a class="btn" href="#games">استعراض</a>
+      </article>
+
+      <article class="card">
+        <div class="icon">🛡️</div>
+        <h2>حماية وأمان</h2>
+        <p>روابط موثوقة وآمنة</p>
+        <a class="btn" href="#games">المزيد</a>
+      </article>
+    </section>
+
+    <section class="games" id="games">
+      <h2>الألعاب</h2>
+      <div class="game-grid">
+        <article class="game">
+          <div class="game-cover">GAME 01</div>
+          <h3>لعبتي الأولى</h3>
+          <p>وصف قصير للعبة</p>
+          <!-- ضع رابط ملف لعبتك مكان # -->
+          <a class="download" href="#" onclick="alert('ضع رابط ملف اللعبة داخل href أولاً');return false;">تحميل اللعبة</a>
+        </article>
+
+        <article class="game">
+          <div class="game-cover">GAME 02</div>
+          <h3>لعبتي الثانية</h3>
+          <p>وصف قصير للعبة</p>
+          <a class="download" href="#" onclick="alert('ضع رابط ملف اللعبة داخل href أولاً');return false;">تحميل اللعبة</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="links">
+      <a class="youtube" href="#" target="_blank">▶ يوتيوب</a>
+      <a class="discord" href="#" target="_blank">● ديسكورد</a>
+      <a class="site" href="#home">⌂ الرئيسية</a>
+    </section>
+  </main>
+
+  <footer>جميع الحقوق محفوظة © VXR 2026</footer>
+  <script src="script.js"></script>
+</body>
+</html>
